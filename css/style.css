@@ -220,7 +220,7 @@ a:hover {
   transition: all 500ms ease;
 }
 
-.socials .ico-circle:hover {
+.socials .experience-logo:hover {
   background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
@@ -253,6 +253,17 @@ a:hover {
 /*------/ Ico Circle /------*/
 
 .ico-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
+.exp-logo {
   height: 100px;
   width: 100px;
   font-size: 2rem;
@@ -724,6 +735,10 @@ a:hover {
 }
 
 .service-box .ico-circle {
+  transition: all 500ms ease;
+  font-size: 4rem;
+}
+.service-box .exp-logo {
   transition: all 500ms ease;
   font-size: 4rem;
 }
